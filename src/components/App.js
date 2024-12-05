@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes, NavLink, useNavigate } from 'react-router
 const PlayGround = () => {
   return (
     <div>
-      <p>Hi, welcome to the code PlayGround.</p>
+      <p>Hi Welcome to Code PlayGround</p>
     </div>
   );
 };
