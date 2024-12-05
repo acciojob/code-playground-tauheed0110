@@ -13,7 +13,7 @@ const Login = ({ isLoggedIn, handleLogin }) => {
   return (
     <div>
       <p>Login</p>
-      <button onClick={handleLogin}>{isLoggedIn ? 'Logout' : 'Login'}</button>
+      <button onClick={handleLogin}>{isLoggedIn ? 'Log Out' : 'Log In'}</button>
     </div>
   );
 };
@@ -49,8 +49,8 @@ const App = () => {
     <BrowserRouter>
       <p>
         {isLoggedIn
-          ? 'You are logged in. Now you can enter the PlayGround.'
-          : "You are not authenticated please login first."}
+          ? 'Logged in, Now you can enter Playground'
+          : "You are not authenticated, Please login first"}
       </p>
       <nav>
         <ul>
