@@ -9,7 +9,9 @@ module.exports = {
     filename: "index_bundle.js",
     publicPath: "/", // Ensures correct handling of client-side routing
   },
-
+  devServer:{
+    historyApiFallback: true
+  },
   module: {
     rules: [
       {

@@ -19,7 +19,7 @@
     "npm": "^10.9.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-router-dom": "^6.8.2",
+    "react-router-dom": "^6.28.0",
     "style-loader": "^1.2.1",
     "webpack-cli": "^3.3.12"
   },
